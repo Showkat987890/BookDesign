@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book</title>
+	 <link rel="stylesheet" type="text/css" href="index.css">
+	 <style type="text/css">
+	 	 *{
+ 	padding: 0;
+ 	margin: 0;
+ 	font-family: verdana;
+ }
+ body{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	min-height: 100vh;
+ 	background: url('FB_IMG_16006226127138513.jpg');
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ }
+ .container{
+ 	position: relative;
+ 	top: 0;
+ 	width: 400px;
+ 	height:600px;
+ 	 
+ 	background: url('Image_236.png');
+ 	transform: rotate(-38deg) skewX(15deg);
+ 	box-shadow: -35px 35px 50px rgba(0, 0, 0, 1.0);
+ 	transition: .5s;
+ }
+ .container:hover{
+ 	transform: rotate(-38deg) skewX(15deg) translate(30px, -30px);
+ 	box-shadow: -35px 35px 100px rgba(0, 0, 0, 1.0);
+ }
+ .container:before{
+ 	content: '';
+ 	width: 20px;
+ 	height: 100%;
+ 	background: red;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	transform: skewY(-45deg) translate(-20px, -12px);
+ }
+ .container:after{
+ 	content: '';
+ 	width: 100%;
+ 	height: 20px;
+ 	background: #bab4b4;
+ 	position: absolute;
+ 	bottom: -39px;
+ 	left: 0;
+ 	transform: skewX(-47deg) translate(-32px, -20px);
+ }
+ span{
+ 	font-family: agency fb;
+ 	font-size: 25px;
+ 	color: white;
+ 	text-align: center;
+ 	display: block;
+ 	margin-top: 10px;
+
+ }
+ h1{
+ 	color: red;
+ 	text-align: center;
+ 	margin-top: 20px;
+ 	font-size: 45px;
+ 	margin-bottom: 10px;
+ }
+ h3{
+ 	text-align: center;
+
+ }
+ .ron{
+ 	color: white;
+ }
+ img{
+ 	border: 6px solid white;
+ 	padding: 0;
+ }
+ #one{
+ 	margin-left: 217px;
+ }
+ #two{
+ 	margin-left: 98px;
+ }
+ #three{
+  
+ }
+ #four{
+  margin-left: 98px;
+}
+#line{
+	display: block;
+	width: 100%;
+	height: 5px;
+	background: #750808;
+	margin: 0;
+}
+#line2{
+	display: block;
+	width: 100%;
+	height: 5px;
+	background: #fff;
+	margin: 0;
+}
+#line3{
+	font-size: 12px;
+	color: white;
+}
+b{
+	color: black;
+}
+	 </style>
+</head>
+<body>
+ 
+ 
+<div class="container">
+	  <span>Significant Economic Issues</span>
+	  <h1>Economic</h1>
+	  <h3>First Paper</h3>
+	  <h3>XI-XII</h3>
+	  <h3 class="ron">Ronjid Kumar Nat</h3>
+	  <br>
+	  <img src="Image_2419.png" width="100px" id="one"><br>
+	  <img src="Image_1592042652.jpg" id="two" width="100px">
+	  <img src="IMG20190515110910-01.jpeg" width="100px" id="three"><br>
+	  <img src="IMG20190516090238-01.jpeg" id="four" width="100px"><br><br>
+	  <span id="line"></span>
+	  <span id="line2"></span>
+	  <span id="line3">
+	  	<p>Hassan Book House, Dhaka</p>
+	  	<p>NATIONAL CURRICULUM & TEXTBOOK BOARD, <b>BANGLADESH</b></p>
+	  </span>
+</div>
+
+
+
+
+
+
+
+
+ 
+ 
+</body>
+</html>
